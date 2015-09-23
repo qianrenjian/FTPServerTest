@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.security.MessageDigest;
@@ -93,6 +94,13 @@ public class MD5 {
 	}
 	
 	//计算MD5值并写入文件中
+	
+	public String getCodecMD5(InputStream inputStream) throws Exception{
+		String md5 = "";
+		md5 = DigestUtils.md5Hex(inputStream);
+		return md5;
+	}
+	
 	public String getCodecMD5(String filePath, String tempFile) throws Exception{
 		String md5 = "";
 		File temp = new File(tempFile);

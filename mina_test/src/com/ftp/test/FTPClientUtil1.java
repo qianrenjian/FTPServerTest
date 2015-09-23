@@ -38,6 +38,12 @@ public class FTPClientUtil1 {
 
 	private FTPClient ftpclient;
 
+	/**
+	 * 实现匿名用户登陆
+	 * @param host
+	 * @param port
+	 * @throws Exception
+	 */
 	public FTPClientUtil1(String host, int port) throws Exception {
 		this(host, port, null, null);
 	}
@@ -56,7 +62,9 @@ public class FTPClientUtil1 {
 					throw new Exception("登陆验证失败，请检查账号和密码是否正确");
 				}
 			}
+			
 			ftpclient.setFileType(FTPClient.BINARY_FILE_TYPE);
+			//设置成被动模式
 			ftpclient.enterLocalPassiveMode();
 			ftpclient.setFileType(FTP.BINARY_FILE_TYPE);
 			int reply = ftpclient.getReplyCode();

@@ -1,0 +1,1393 @@
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x14ff7b18f930011, likely server has closed socket, closing socket connection and attempting reconnect
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.157.128/192.168.157.128:2181, initiating session
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.157.128/192.168.157.128:2181
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x14ff7b18f930011, likely server has closed socket, closing socket connection and attempting reconnect
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.157.128/192.168.157.128:2181, initiating session
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.157.128/192.168.157.128:2181
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x14ff7b18f930011, likely server has closed socket, closing socket connection and attempting reconnect
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.157.128/192.168.157.128:2181, initiating session
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.157.128/192.168.157.128:2181
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x14ff7b18f930011, likely server has closed socket, closing socket connection and attempting reconnect
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.157.128/192.168.157.128:2181, initiating session
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.157.128/192.168.157.128:2181
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x14ff7b18f930011, likely server has closed socket, closing socket connection and attempting reconnect
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7945ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7420ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7730ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7951ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7442ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7671ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7556ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7861ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7837ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7389ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7718ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7286ms for sessionid 0x14ff7b18f930011, closing socket connection and attempting reconnect
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	... 4 more
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.Net.translateException(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	... 4 more
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ WARN main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session 0x14ff7b18f930011 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+ java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
+INFO main kafka.utils.VerifiableProperties - Verifying properties
+ INFO main kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 192.168.157.128:9092,192.168.157.128:9093,192.168.157.128:9094
+ INFO main kafka.utils.VerifiableProperties - Property serializer.class is overridden to kafka.serializer.StringEncoder
+ WARN main kafka.utils.VerifiableProperties - Property zk.connect is not valid
+ DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+ INFO main kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:192.168.157.128,port:9092 with correlation id 0 for 1 topic(s) Set(test-topic)
+ DEBUG main kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+ INFO main kafka.producer.SyncProducer - Connected to 192.168.157.128:9092 for producing
+ INFO main kafka.producer.SyncProducer - Disconnecting from 192.168.157.128:9092
+ DEBUG main kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(test-topic)
+ WARN main kafka.producer.BrokerPartitionInfo - Error while fetching metadata [{TopicMetadata for topic test-topic -> 
+No partition metadata for topic test-topic due to kafka.common.LeaderNotAvailableException}] for topic [test-topic]: class kafka.common.LeaderNotAvailableException 
+ DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic test-topic
+ INFO main kafka.client.ClientUtils$ - Fetching metadata from broker id:1,host:192.168.157.128,port:9093 with correlation id 1 for 1 topic(s) Set(test-topic)
+ DEBUG main kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+ INFO main kafka.producer.SyncProducer - Connected to 192.168.157.128:9093 for producing
+ INFO main kafka.producer.SyncProducer - Disconnecting from 192.168.157.128:9093
+ DEBUG main kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(test-topic)
+ WARN main kafka.producer.BrokerPartitionInfo - Error while fetching metadata [{TopicMetadata for topic test-topic -> 
+No partition metadata for topic test-topic due to kafka.common.LeaderNotAvailableException}] for topic [test-topic]: class kafka.common.LeaderNotAvailableException 
+ ERROR main kafka.producer.async.DefaultEventHandler - Failed to collate messages by topic, partition due to: Failed to fetch topic metadata for topic: test-topic
+ INFO main kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 3
+ INFO main kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:192.168.157.128,port:9092 with correlation id 2 for 1 topic(s) Set(test-topic)
+ DEBUG main kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+ INFO main kafka.producer.SyncProducer - Connected to 192.168.157.128:9092 for producing
+ INFO main kafka.producer.SyncProducer - Disconnecting from 192.168.157.128:9092
+ DEBUG main kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(test-topic)
+ DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic test-topic
+ DEBUG main kafka.producer.BrokerPartitionInfo - Partition [test-topic,0] has leader 1
+ DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: test-topic are 0
+ DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [test-topic,0]
+ DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 4 for topics [test-topic,0] to broker 1 on master:9093
+ DEBUG main kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+ INFO main kafka.producer.SyncProducer - Connected to master:9093 for producing
+ DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 4 for topics [test-topic,0] to broker 1 on master:9093
+ INFO main kafka.producer.Producer - Shutting down producer
+ INFO main kafka.producer.ProducerPool - Closing all sync producers
+ INFO main kafka.producer.SyncProducer - Disconnecting from master:9093
+ INFO main kafka.producer.Producer - Producer shutdown completed in 19 ms
+ INFO main kafka.utils.VerifiableProperties - Verifying properties
+ INFO main kafka.utils.VerifiableProperties - Property auto.commit.enable is overridden to true
+ INFO main kafka.utils.VerifiableProperties - Property auto.commit.interval.ms is overridden to 60000
+ INFO main kafka.utils.VerifiableProperties - Property group.id is overridden to test-group
+ INFO main kafka.utils.VerifiableProperties - Property zookeeper.connect is overridden to 192.168.157.128:2181
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Connecting to zookeeper instance at 192.168.157.128:2181
+ DEBUG main org.I0Itec.zkclient.ZkConnection - Creating new ZookKeeper instance to connect to 192.168.157.128:2181.
+ INFO ZkClient-EventThread-12-192.168.157.128:2181 org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=hanyan-PC
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.7.0_79
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jre7
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=E:\repository\git\FTPServer.git\mina_test\bin;E:\repository\git\FTPServer.git\mina_test\lib\commons-lang-2.6.jar;E:\repository\git\FTPServer.git\mina_test\lib\commons-logging-1.0.3.jar;E:\repository\git\FTPServer.git\mina_test\lib\javassist-3.11.0.GA.jar;E:\repository\git\FTPServer.git\mina_test\lib\jcl-over-slf4j-1.7.7.jar;E:\repository\git\FTPServer.git\mina_test\lib\jzlib-1.1.3.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-core-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-example-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-filter-compression-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-http-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-integration-beans-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-integration-jmx-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-integration-ognl-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-integration-xbean-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-statemachine-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\mina-transport-apr-2.0.9.jar;E:\repository\git\FTPServer.git\mina_test\lib\ognl-3.0.8.jar;E:\repository\git\FTPServer.git\mina_test\lib\slf4j-api-1.7.7.jar;E:\repository\git\FTPServer.git\mina_test\lib\spring-2.5.6.SEC03.jar;E:\repository\git\FTPServer.git\mina_test\lib\tomcat-apr-5.5.23.jar;E:\repository\git\FTPServer.git\mina_test\lib\xbean-spring-4.0.jar;E:\repository\git\FTPServer.git\mina_test\lib\commons-net-3.3-sources.jar;E:\repository\git\FTPServer.git\mina_test\lib\commons-net-3.3.jar;E:\repository\git\FTPServer.git\mina_test\lib\commons-net-examples-3.3.jar;E:\repository\git\FTPServer.git\mina_test\lib\log4j-1.2.17.jar;E:\repository\git\FTPServer.git\mina_test\lib\slf4j-log4j12-1.7.5.jar;E:\repository\git\FTPServer.git\mina_test\lib\ftplet-api-1.0.6.jar;E:\repository\git\FTPServer.git\mina_test\lib\ftpserver-core-1.0.6.jar;E:\repository\git\FTPServer.git\mina_test\lib\commons-codec-1.10.jar;E:\repository\git\FTPServer.git\mina_test\lib\jopt-simple-3.2.jar;E:\repository\git\FTPServer.git\mina_test\lib\kafka_2.10-0.8.2.2-javadoc.jar;E:\repository\git\FTPServer.git\mina_test\lib\kafka_2.10-0.8.2.2-scaladoc.jar;E:\repository\git\FTPServer.git\mina_test\lib\kafka_2.10-0.8.2.2-sources.jar;E:\repository\git\FTPServer.git\mina_test\lib\kafka_2.10-0.8.2.2-test.jar;E:\repository\git\FTPServer.git\mina_test\lib\kafka_2.10-0.8.2.2.jar;E:\repository\git\FTPServer.git\mina_test\lib\kafka-clients-0.8.2.2.jar;E:\repository\git\FTPServer.git\mina_test\lib\lz4-1.2.0.jar;E:\repository\git\FTPServer.git\mina_test\lib\metrics-core-2.2.0.jar;E:\repository\git\FTPServer.git\mina_test\lib\scala-library-2.10.4.jar;E:\repository\git\FTPServer.git\mina_test\lib\snappy-java-1.1.1.7.jar;E:\repository\git\FTPServer.git\mina_test\lib\zkclient-0.3.jar;E:\repository\git\FTPServer.git\mina_test\lib\zookeeper-3.4.6.jar
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Java\jdk1.7.0_79\bin;C:\Java\jdk1.7.0_79\jre\bin;E:\work\hadoop\bin; ;C:\Program Files (x86)\CloudFoundry;C:\mysql\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Subversion\bin;E:\repository\software\tortoiseGit\bin;E:\repository\software\ICW\bin;E:\repository\software\Git\bin;E:\repository\software\Git\mingw32\libexec\git-core;;E:\work\eclipse2;;.
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\hanyan\AppData\Local\Temp\
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 7
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=6.1
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=hanyan
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\hanyan
+ INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\repository\git\FTPServer.git\mina_test
+ INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=192.168.157.128:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@8b9df2
+ DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+ DEBUG main org.I0Itec.zkclient.ZkClient - Awaiting connection to Zookeeper server
+ DEBUG main org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.157.128/192.168.157.128:2181. Will not attempt to authenticate using SASL (unknown error)
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.157.128/192.168.157.128:2181, initiating session
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.157.128/192.168.157.128:2181
+ INFO main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 192.168.157.128/192.168.157.128:2181, sessionid = 0x14ff80736ef0005, negotiated timeout = 6000
+ DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Received event: WatchedEvent state:SyncConnected type:None path:null
+ INFO main-EventThread org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
+ DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Leaving process event
+ DEBUG main org.I0Itec.zkclient.ZkClient - State is SyncConnected
+ DEBUG main kafka.utils.KafkaScheduler - Initializing task scheduler.
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], starting auto committer every 60000 ms
+ DEBUG main kafka.utils.KafkaScheduler - Scheduling task kafka-consumer-autocommit with initial delay 60000 ms and period 60000 ms.
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,36,0  request:: '/brokers/topics,F  response:: v{'test-topic} 
+ DEBUG main kafka.consumer.Whitelist - test-topic allowed
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], begin registering consumer test-group_hanyan-PC-1442975398609-2cabd7ad in ZK
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,37,-101  request:: '/consumers/test-group/ids/test-group_hanyan-PC-1442975398609-2cabd7ad,#7b2276657273696f6e223a312c22737562736372697074696f6e223a7b22746573742d746f706963223a317d2c227061747465726e223a2277686974655f6c697374222c2274696d657374616d70223a2231343432393735333938393934227d,v{s{31,s{'world,'anyone}}},1  response::  
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,38,-101  request:: '/consumers/test-group/ids,,v{s{31,s{'world,'anyone}}},0  response::  
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,39,0  request:: '/consumers/test-group,,v{s{31,s{'world,'anyone}}},0  response:: '/consumers/test-group 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,40,0  request:: '/consumers/test-group/ids,,v{s{31,s{'world,'anyone}}},0  response:: '/consumers/test-group/ids 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,41,0  request:: '/consumers/test-group/ids/test-group_hanyan-PC-1442975398609-2cabd7ad,#7b2276657273696f6e223a312c22737562736372697074696f6e223a7b22746573742d746f706963223a317d2c227061747465726e223a2277686974655f6c697374222c2274696d657374616d70223a2231343432393735333938393934227d,v{s{31,s{'world,'anyone}}},1  response:: '/consumers/test-group/ids/test-group_hanyan-PC-1442975398609-2cabd7ad 
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], end registering consumer test-group_hanyan-PC-1442975398609-2cabd7ad in ZK
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad_watcher_executor kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], starting watcher executor thread for consumer test-group_hanyan-PC-1442975398609-2cabd7ad
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 7,8  replyHeader:: 7,41,0  request:: '/brokers/topics,F  response:: v{'test-topic} 
+ DEBUG main kafka.consumer.Whitelist - test-topic allowed
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Adding topicThreadId (test-topic,test-group_hanyan-PC-1442975398609-2cabd7ad-0) and queue [] to topicThreadIdAndQueues data structure
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], adding topic test-topic and 1 streams to map.
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,41,0  request:: '/consumers/test-group/ids,T  response:: s{40,40,1442975399568,1442975399568,0,1,0,0,0,1,41} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,41,0  request:: '/consumers/test-group/ids,T  response:: v{'test-group_hanyan-PC-1442975398609-2cabd7ad} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 10,3  replyHeader:: 10,41,0  request:: '/brokers/topics/test-topic,T  response:: s{28,28,1442975376267,1442975376267,0,1,0,0,36,1,31} 
+ DEBUG main org.I0Itec.zkclient.ZkClient - Subscribed data changes for /brokers/topics/test-topic
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], begin rebalancing consumer test-group_hanyan-PC-1442975398609-2cabd7ad try #0
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 11,8  replyHeader:: 11,41,0  request:: '/brokers/ids,F  response:: v{'2,'1,'0} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 12,4  replyHeader:: 12,41,0  request:: '/brokers/ids/2,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735333031313535222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039347d,s{22,22,1442975301169,1442975301169,0,0,0,94566827068162050,83,0,22} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 13,4  replyHeader:: 13,41,0  request:: '/brokers/ids/1,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735323938363938222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039337d,s{20,20,1442975298712,1442975298712,0,0,0,94566827068162049,83,0,20} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 14,4  replyHeader:: 14,41,0  request:: '/brokers/ids/0,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735323937363435222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039327d,s{18,18,1442975297759,1442975297759,0,0,0,94566827068162048,83,0,18} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 15,4  replyHeader:: 15,41,0  request:: '/consumers/test-group/ids/test-group_hanyan-PC-1442975398609-2cabd7ad,F  response:: #7b2276657273696f6e223a312c22737562736372697074696f6e223a7b22746573742d746f706963223a317d2c227061747465726e223a2277686974655f6c697374222c2274696d657374616d70223a2231343432393735333938393934227d,s{41,41,1442975399607,1442975399607,0,0,0,94566827068162053,96,0,41} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 16,8  replyHeader:: 16,41,0  request:: '/brokers/topics,F  response:: v{'test-topic} 
+ DEBUG main kafka.consumer.Whitelist - test-topic allowed
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 17,8  replyHeader:: 17,41,0  request:: '/brokers/ids,F  response:: v{'2,'1,'0} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 18,4  replyHeader:: 18,41,0  request:: '/brokers/ids/0,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735323937363435222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039327d,s{18,18,1442975297759,1442975297759,0,0,0,94566827068162048,83,0,18} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 19,4  replyHeader:: 19,41,0  request:: '/brokers/ids/1,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735323938363938222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039337d,s{20,20,1442975298712,1442975298712,0,0,0,94566827068162049,83,0,20} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 20,4  replyHeader:: 20,41,0  request:: '/brokers/ids/2,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735333031313535222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039347d,s{22,22,1442975301169,1442975301169,0,0,0,94566827068162050,83,0,22} 
+ INFO main kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1442975398766] Stopping leader finder thread
+ INFO main kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1442975398766] Stopping all fetchers
+ INFO main kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1442975398766] All connections stopped
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Cleared all relevant queues for this fetcher
+ DEBUG main kafka.consumer.ConsumerIterator - Clearing the current data chunk for this consumer iterator
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Cleared the data chunks in all the consumer message iterators
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Committing all offsets after clearing the fetcher queues
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], No updates to offsets since last commit.
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Releasing partition ownership
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 21,4  replyHeader:: 21,41,0  request:: '/consumers/test-group/ids/test-group_hanyan-PC-1442975398609-2cabd7ad,F  response:: #7b2276657273696f6e223a312c22737562736372697074696f6e223a7b22746573742d746f706963223a317d2c227061747465726e223a2277686974655f6c697374222c2274696d657374616d70223a2231343432393735333938393934227d,s{41,41,1442975399607,1442975399607,0,0,0,94566827068162053,96,0,41} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 22,8  replyHeader:: 22,41,0  request:: '/brokers/topics,F  response:: v{'test-topic} 
+ DEBUG main kafka.consumer.Whitelist - test-topic allowed
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 23,4  replyHeader:: 23,41,0  request:: '/brokers/topics/test-topic,T  response:: #7b2276657273696f6e223a312c22706172746974696f6e73223a7b2230223a5b315d7d7d,s{28,28,1442975376267,1442975376267,0,1,0,0,36,1,31} 
+ DEBUG main kafka.utils.ZkUtils$ - Partition map for /brokers/topics/test-topic is Map(0 -> List(1))
+ DEBUG main kafka.utils.ZkUtils$ - partition assignment of /brokers/topics/test-topic is Map(0 -> List(1))
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 24,8  replyHeader:: 24,41,0  request:: '/consumers/test-group/ids,T  response:: v{'test-group_hanyan-PC-1442975398609-2cabd7ad} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 25,4  replyHeader:: 25,41,0  request:: '/consumers/test-group/ids/test-group_hanyan-PC-1442975398609-2cabd7ad,F  response:: #7b2276657273696f6e223a312c22737562736372697074696f6e223a7b22746573742d746f706963223a317d2c227061747465726e223a2277686974655f6c697374222c2274696d657374616d70223a2231343432393735333938393934227d,s{41,41,1442975399607,1442975399607,0,0,0,94566827068162053,96,0,41} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 26,8  replyHeader:: 26,41,0  request:: '/brokers/topics,F  response:: v{'test-topic} 
+ DEBUG main kafka.consumer.Whitelist - test-topic allowed
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 27,8  replyHeader:: 27,41,0  request:: '/consumers/test-group/ids,T  response:: v{'test-group_hanyan-PC-1442975398609-2cabd7ad} 
+ INFO main kafka.consumer.RangeAssignor - Consumer test-group_hanyan-PC-1442975398609-2cabd7ad rebalancing the following partitions: ArrayBuffer(0) for topic test-topic with consumers: List(test-group_hanyan-PC-1442975398609-2cabd7ad-0)
+ INFO main kafka.consumer.RangeAssignor - test-group_hanyan-PC-1442975398609-2cabd7ad-0 attempting to claim partition 0
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 28,4  replyHeader:: 28,41,-101  request:: '/consumers/test-group/offsets/test-topic/0,F  response::  
+ DEBUG main kafka.consumer.PartitionTopicInfo - initial consumer offset of test-topic:0: fetched offset = -1: consumed offset = -1 is -1
+ DEBUG main kafka.consumer.PartitionTopicInfo - initial fetch offset of test-topic:0: fetched offset = -1: consumed offset = -1 is -1
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], test-topic:0: fetched offset = -1: consumed offset = -1 selected new offset -1
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 29,1  replyHeader:: 29,42,-101  request:: '/consumers/test-group/owners/test-topic/0,#746573742d67726f75705f68616e79616e2d50432d313434323937353339383630392d32636162643761642d30,v{s{31,s{'world,'anyone}}},1  response::  
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 30,1  replyHeader:: 30,43,-101  request:: '/consumers/test-group/owners/test-topic,,v{s{31,s{'world,'anyone}}},0  response::  
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 31,1  replyHeader:: 31,44,0  request:: '/consumers/test-group/owners,,v{s{31,s{'world,'anyone}}},0  response:: '/consumers/test-group/owners 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 32,1  replyHeader:: 32,45,0  request:: '/consumers/test-group/owners/test-topic,,v{s{31,s{'world,'anyone}}},0  response:: '/consumers/test-group/owners/test-topic 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 33,1  replyHeader:: 33,46,0  request:: '/consumers/test-group/owners/test-topic/0,#746573742d67726f75705f68616e79616e2d50432d313434323937353339383630392d32636162643761642d30,v{s{31,s{'world,'anyone}}},1  response:: '/consumers/test-group/owners/test-topic/0 
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], test-group_hanyan-PC-1442975398609-2cabd7ad-0 successfully owned partition 0 for topic test-topic
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Consumer test-group_hanyan-PC-1442975398609-2cabd7ad selected partitions : test-topic:0: fetched offset = -1: consumed offset = -1
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread], Starting 
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], end rebalancing consumer test-group_hanyan-PC-1442975398609-2cabd7ad try #0
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 34,8  replyHeader:: 34,46,0  request:: '/brokers/ids,F  response:: v{'2,'1,'0} 
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Creating topic event watcher for topics test-topic
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 35,4  replyHeader:: 35,46,0  request:: '/brokers/ids/0,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735323937363435222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039327d,s{18,18,1442975297759,1442975297759,0,0,0,94566827068162048,83,0,18} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 36,3  replyHeader:: 36,46,0  request:: '/brokers/topics,F  response:: s{6,6,1442975290749,1442975290749,0,1,0,0,0,1,28} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 37,3  replyHeader:: 37,46,0  request:: '/brokers/topics,T  response:: s{6,6,1442975290749,1442975290749,0,1,0,0,0,1,28} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 38,4  replyHeader:: 38,46,0  request:: '/brokers/ids/1,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735323938363938222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039337d,s{20,20,1442975298712,1442975298712,0,0,0,94566827068162049,83,0,20} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 39,8  replyHeader:: 39,46,0  request:: '/brokers/topics,T  response:: v{'test-topic} 
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 40,8  replyHeader:: 40,46,0  request:: '/brokers/topics,T  response:: v{'test-topic} 
+ DEBUG main kafka.consumer.ZookeeperTopicEventWatcher - all topics: List(test-topic)
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Handling topic event
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x14ff80736ef0005, packet:: clientPath:null serverPath:null finished:false header:: 41,4  replyHeader:: 41,46,0  request:: '/brokers/ids/2,F  response:: #7b226a6d785f706f7274223a2d312c2274696d657374616d70223a2231343432393735333031313535222c22686f7374223a226d6173746572222c2276657273696f6e223a312c22706f7274223a393039347d,s{22,22,1442975301169,1442975301169,0,0,0,94566827068162050,83,0,22} 
+ DEBUG main kafka.consumer.Whitelist - test-topic allowed
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [test-group_hanyan-PC-1442975398609-2cabd7ad], Topics to consume = List(test-topic)
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to test-group
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to master:9092,master:9093,master:9094
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:master,port:9092 with correlation id 0 for 1 topic(s) Set(test-topic)
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 30000 (requested 30000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 30000.
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.producer.SyncProducer - Connected to master:9092 for producing
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.producer.SyncProducer - Disconnecting from master:9092
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(test-topic)
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread], {TopicMetadata for topic test-topic -> 
+Metadata for partition [test-topic,0] is 	partition 0	leader: 1 (master:9093)	replicas: 1 (master:9093)	isr: 1 (master:9093)	isUnderReplicated: false}
+ INFO ConsumerFetcherThread-test-group_hanyan-PC-1442975398609-2cabd7ad-0-1 kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-test-group_hanyan-PC-1442975398609-2cabd7ad-0-1], Starting 
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.consumer.SimpleConsumer - Disconnecting from master:9093
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 30000 (requested 30000), SO_RCVBUF = 65536 (requested 65536), SO_SNDBUF = 8192 (requested -1), connectTimeoutMs = 30000.
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.consumer.PartitionTopicInfo - reset fetch offset of ( test-topic:0: fetched offset = 1: consumed offset = -1 ) to 1
+ DEBUG test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.consumer.PartitionTopicInfo - reset consume offset of test-topic:0: fetched offset = 1: consumed offset = 1 to 1
+ INFO test-group_hanyan-PC-1442975398609-2cabd7ad-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1442975398766] Added fetcher for partitions ArrayBuffer([[test-topic,0], initOffset -1 to broker id:1,host:master,port:9093] )
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x14ff80736ef0005 after 1ms
+ INFO main kafka.utils.VerifiableProperties - Verifying properties
+ INFO main kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 192.168.157.128:9092,192.168.157.128:9093,192.168.157.128:9094
+ INFO main kafka.utils.VerifiableProperties - Property serializer.class is overridden to kafka.serializer.StringEncoder
+ WARN main kafka.utils.VerifiableProperties - Property zk.connect is not valid
+ DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+ INFO main kafka.client.ClientUtils$ - Fetching metadata from broker id:1,host:192.168.157.128,port:9093 with correlation id 0 for 1 topic(s) Set(test-topic)
+ DEBUG main kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+ INFO main kafka.producer.SyncProducer - Connected to 192.168.157.128:9093 for producing
+ INFO main kafka.producer.SyncProducer - Disconnecting from 192.168.157.128:9093
+ DEBUG main kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(test-topic)
+ DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic test-topic
+ DEBUG main kafka.producer.BrokerPartitionInfo - Partition [test-topic,0] has leader 1
+ DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: test-topic are 0
+ DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [test-topic,0]
+ DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2 for topics [test-topic,0] to broker 1 on master:9093
+ DEBUG main kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 8192 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+ INFO main kafka.producer.SyncProducer - Connected to master:9093 for producing
+ DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2 for topics [test-topic,0] to broker 1 on master:9093
+ DEBUG ConsumerFetcherThread-test-group_hanyan-PC-1442975398609-2cabd7ad-0-1 kafka.consumer.PartitionTopicInfo - updated fetch offset of (test-topic:0: fetched offset = 2: consumed offset = 1) to 2
+ DEBUG main kafka.consumer.PartitionTopicInfo - reset consume offset of test-topic:0: fetched offset = 2: consumed offset = 2 to 2
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x14ff80736ef0005 after 1ms
+ INFO main kafka.producer.Producer - Shutting down producer
+ INFO main kafka.producer.ProducerPool - Closing all sync producers
+ INFO main kafka.producer.SyncProducer - Disconnecting from master:9093
+ INFO main kafka.producer.Producer - Producer shutdown completed in 19 ms
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x14ff80736ef0005 after 1ms
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x14ff80736ef0005 after 17ms
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x14ff80736ef0005 after 1ms
+ DEBUG main-SendThread(192.168.157.128:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x14ff80736ef0005 after 0ms
+ 
