@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Sep 24 09:14:55 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=mina_test_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.kafka.test.KafkaConsumer
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

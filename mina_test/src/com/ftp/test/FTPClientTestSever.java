@@ -97,7 +97,6 @@ public class FTPClientTestSever {
 	 * @return true/false
 	 * @throws Exception
 	 */
-	@SuppressWarnings("static-access")
 	public boolean upload(String distPath, String srcPath) throws Exception {
 		File file = new File(srcPath);
 		
@@ -109,8 +108,9 @@ public class FTPClientTestSever {
 			String fileName = file.getName();
 			ftpclient.storeFile(new String(fileName.getBytes(),
 					ftpclient.getControlEncoding()), new FileInputStream(file));
-			String md5_1 = md5.getFileMD5String(file);
-			String md5_2 = md5.getCodecMD5(new FileInputStream(file));
+			if(checkFile(distPath+"/"+fileName, srcPath)){
+				return true;
+			}
 		}
 		return false;
 	}
@@ -142,6 +142,7 @@ public class FTPClientTestSever {
 	public boolean upload(String distPath, String newFileName, String srcFile)
 			throws Exception {
 		File file = new File(srcFile);
+		mkdir(distPath);
 		ftpclient.changeWorkingDirectory(distPath);
 		if (file.isFile()) {
 				return ftpclient.storeFile(new String(newFileName.getBytes(),
@@ -250,6 +251,37 @@ public class FTPClientTestSever {
 		}
 		return result;
 	}
+	
+	/**
+	 * 判断两个文件的内容是相同
+	 * @param distFile 服务器文件
+	 * @param srcFile  源文件
+	 * @return true/false
+	 * @throws IOException
+	 * @throws Exception
+	 * boolean
+	 */
+	public boolean checkFile(String distFile, String srcFile) throws IOException, Exception{
+//		LocalFileInfo src = new LocalFileInfo(srcFile);
+//		LocalFileInfo dist = new LocalFileInfo(distFile);
+//		if(src.name.equals(dist.name) && src.size == dist.size && src.md5.equals(dist.md5)){
+//			return true;
+//		}
+		
+		File dist = new File(distFile);
+		File src = new File(srcFile);
+		String src_md5 = md5.getCodecMD5(new FileInputStream(srcFile));
+		String dist_md5 = md5.getCodecMD5(ftpclient.retrieveFileStream(distFile));
+		if(src_md5.equals(dist_md5)){
+			return true;
+		}
+//		if(src.getName().equals(dist.getName()) && src.length() == dist.length() && src_md5.equals(dist_md5)){
+//			return true;
+//		}
+		
+		
+		return false;
+	}
 
 	/**
 	 * @return {@link org.apache.commons.net.ftp.FTPClient FTPClient}对象
@@ -273,9 +305,12 @@ public class FTPClientTestSever {
 	public static void main(String[] args) throws Exception {
 		FTPClientTestSever ftputil = new FTPClientTestSever("42.123.90.71",
 				2121, "hadp", "123456");
-		ftputil.upload("/test/hanyanTest/", "./src/test.txt");
-		// ftputil.upload("/test/hanyanTest", "123.java", "./src/test.txt");
-		// ftputil.download("/drop.sql", "drop.sql");
+		System.out.println(ftputil.checkFile("/home/hadp/hanyanTest/ftpLocalData/hanyanTest/test.txt", "./src/test.txt"));
+		//System.out.println(ftputil.upload("/hanyanTest", "./src/test.txt"));
+//		System.out.println(ftputil.delete("/test/hanyanTest/test.txt"));
+		
+		 //ftputil.upload("/hanyanTest", "123.java", "./src/test.txt");
+		//ftputil.download("/test/item.txt", "item.txt");
 		ftputil.close();
 	}
 }

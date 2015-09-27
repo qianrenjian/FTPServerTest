@@ -188,7 +188,9 @@ public class FtpClient {
 	
 	public static String joinPath(String path1,String path2)
 	{
-		return path1.endsWith("/")?path1+path2:path1+"/"+path2;
+		return (path1.endsWith("/")?path1.substring(0, path1.length()-1):path1)
+				+"/"+
+				(path2.startsWith("/")?path2.substring(1):path2);
 		
 	}
 	

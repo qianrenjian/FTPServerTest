@@ -44,8 +44,4 @@ public class UploadTestLocal {
 		
 	}
 	
-	public static void main(String[] args)
-	{
-		
-	}
 }

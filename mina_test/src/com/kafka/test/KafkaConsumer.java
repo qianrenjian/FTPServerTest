@@ -24,10 +24,10 @@ public class KafkaConsumer {
 			UnsupportedEncodingException {
 
 		Properties properties = new Properties();
-		properties.put("zookeeper.connect", "192.168.157.128:2181");
+		properties.put("zookeeper.connect", "172.18.0.43,172.18.0.44,172.18.0.46,172.18.0.47,172.18.0.48");
 		properties.put("auto.commit.enable", "true");
 		properties.put("auto.commit.interval.ms", "60000");
-		properties.put("group.id", "test-group");
+		properties.put("group.id", "test-consumer-group");
 
 		ConsumerConfig consumerConfig = new ConsumerConfig(properties);
 
@@ -35,7 +35,7 @@ public class KafkaConsumer {
 				.createJavaConsumerConnector(consumerConfig);
 
 		// topic的过滤器
-		Whitelist whitelist = new Whitelist("test-topic");
+		Whitelist whitelist = new Whitelist("ftptest");
 		List<KafkaStream<byte[], byte[]>> partitions = javaConsumerConnector
 				.createMessageStreamsByFilter(whitelist);
 
